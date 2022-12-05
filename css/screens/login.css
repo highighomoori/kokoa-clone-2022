@@ -1,0 +1,97 @@
+.welcome-header {
+    margin: 100px 0px 60px 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lily-logo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.welcome-header__title {
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.welcome-header__text {
+    width: 60%;
+    font-size: 18px;
+    opacity: 0.8;
+
+}
+
+
+/* -------------------------------------------------- */
+
+
+
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px;
+}
+
+#login-form input {
+    color: white;
+    border: none;
+    padding: 10px 0px;
+}
+
+#login-form input:not([name="username"],[name="password"]) {
+    font-family: 'Dosis';
+}
+
+
+#login-form input:not([type="submit"]) {
+    background-color: black;
+    border-bottom: 1px solid var(--opacity-gray);
+    transition: border-color .3s ease-in-out;
+    font-size: 18px;
+}
+
+#login-form input[type="submit"] {
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 22px;
+}
+
+/* #login-form input::placeholder {
+    border-color:var(--opacity-gray);
+} */
+
+#login-form input:focus {
+    border-color: var(--sky);
+}
+
+#login-form input[name="password"]{
+    margin-bottom: 25px;
+}
+
+#login-form input[name="login-btn"]{
+    background-color: var(--gray);
+    margin-bottom: 6px;
+}
+
+
+#login-form input[name="signup-btn"]{
+    background-color: var(--sky);
+    margin-bottom: 30px;
+}
+
+
+/* -------------------------------------------------- */
+
+
+#login-form a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    /* color:inherit;*/
+    color: var(--sky);
+}

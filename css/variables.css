@@ -1,0 +1,7 @@
+:root {
+    --sky: #7cadd5;
+    --gray: #a6b1ba;
+    --opacity-gray: rgba(256, 256, 256, 0.4);
+    --horizondtal-space: 16px;
+    --main-border: 1px solid var(--opacity-gray);
+}

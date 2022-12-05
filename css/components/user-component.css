@@ -1,0 +1,80 @@
+
+.user-component {
+    justify-content: space-between;
+}
+
+.user-component,
+.user-component__column:first-child {
+    display: flex;
+    align-items: center;
+}
+
+.user-component__column:last-child {
+    color: var(--gray);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+
+.user-component__avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 18px;
+    margin-right: 20px;
+}
+
+.user-component__avatar--xl {
+    width: 60px;
+    height: 60px;
+    border-radius: 22px;
+}
+
+.user-component__avatar--sm {
+    width: 40px;
+    height: 40px;
+    border-radius: 14px;
+}
+
+
+
+.user-component__name {
+    font-size: 25px;
+}
+
+.user-component__subtitle {
+    margin-top: 6px;
+    font-size: 13px;
+    color: var(--opacity-gray);
+}
+
+.user-component__subtitle i{
+    color: var(--sky);
+    margin-left: 4px;
+}
+
+
+.user-component__name-bold {
+    font-weight: 600;
+}
+
+.user-component__name-not-bold {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+.user-component-friends {
+    margin-bottom: 15px;
+}
+
+.user-component__time {
+    margin-bottom: 5px;
+    display: block;
+}
+
+
+.user-component__chat-margin {
+    margin-bottom: 20px;
+}

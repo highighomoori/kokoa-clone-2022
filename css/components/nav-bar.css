@@ -1,0 +1,38 @@
+.nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    border-top: 1px solid rgba(255, 255, 255, 0.616);
+    padding: 20px 40px;
+    box-sizing: border-box;
+}
+
+.nav__list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__link {
+    position: relative;
+
+}
+
+
+.nav__link img {
+    width: 40px;
+    height: 40px;
+}
+
+.nav__chat-notification {
+    position: absolute;
+    left: 25px;
+    bottom: 25px;
+}
+
+.nav__more-notification {
+    position: absolute;
+    left: 35px;
+    bottom: 35px;
+}
+

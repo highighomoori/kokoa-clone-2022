@@ -1,0 +1,63 @@
+#friends-display-link {
+    text-align: center;
+    display: block;
+    background-color: var(--sky);
+    padding: 8px 0px;
+    margin-bottom: 14px;
+    font-size: 14px;
+    /* margin-bottom: -15px; */
+}
+
+.fa-circle-info {
+    margin-right: 2px;
+}
+
+.fa-chevron-right{
+    margin-left: 5px;
+}
+
+.friends-screen__channel,
+.friends-screen__friends {
+    margin-top: 14px;
+    border-top: var(--main-border);
+    padding-top: 12px;
+}
+
+.friends-screen__channel-header,
+.friends-screen__friends-header {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--gray);
+}
+
+
+@keyframes hideSplashScreen {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        visibility: hidden; /* 마우스에 걸리지 않게 사라짐 */
+        
+    }
+}
+
+#splash-screen {
+    background-color: black;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: hideSplashScreen 0.3s ease-in-out forwards;
+    animation-delay: 1.5s;
+}
+
+#splash-screen img {
+    width: 100px;
+    height: 100px;
+}

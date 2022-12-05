@@ -1,0 +1,19 @@
+.badge {
+    background-color: var(--sky);
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+}
+
+.more-badge {
+    background-color: var(--sky);
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+}
